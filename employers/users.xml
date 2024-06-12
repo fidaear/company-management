@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Employers>
+    <Persone>
+        <CIN>L1123</CIN>
+        <name>FIDAA ARIYAN</name>
+        <sexe type="male"/>
+        <age>18</age>
+        <phone type="home">0621244777</phone>
+        <email>fidaee@gmail.com</email>
+    </Persone>
+<Persone><CIN>L118120</CIN><name>HOSEIN ARIYAN</name><sexe type="male"/><age>64</age><phone type="work">05507301</phone><email>client@example.com</email></Persone><Persone><CIN>L118120</CIN><name>HOSEIN ARIYAN</name><sexe type="male"/><age>64</age><phone type="work">05507301</phone><email>client@example.com</email></Persone><Persone><CIN>LC1124</CIN><name>SAMIRA amine</name><sexe type="female"/><age>43</age><phone type="work">07128363634</phone><email>samira@gmail.com</email></Persone><Persone><CIN>R12332</CIN><name>HAmid bourouhou</name><sexe type="male"/><age>36</age><phone type="mobile">077127321</phone><email>hamibrhrb@gmail.com</email></Persone>
+<Persone><CIN>L99823</CIN><name>FATIMA bakali</name><sexe type="female"/><age>43</age><phone type="work">+43621244777</phone><email>fatima43@gmail.com</email></Persone><Persone><CIN>RK838323</CIN><name>HALA ARIYAN</name><sexe type="female"/><age>18</age><phone type="home">051625353</phone><email>halaariya2005@gmal.com</email></Persone><Persone><CIN>L1181201</CIN><name>FATIMA</name><sexe type="female"/><age>43</age><phone type="mobile">062133442</phone><email>dddsdsdsd@gmail.com</email></Persone><Persone><CIN>MC1232004</CIN><name>tekila</name><sexe type="female"/><age>48</age><phone type="work">0182737323</phone><email>ssdsd@gmail.com</email></Persone><Persone><CIN>MR1032</CIN><name>YOUSSEF</name><sexe type="male"/><age>33</age><phone type="mobile">0661283834</phone><email>youssef@gmail.com</email></Persone><Persone><CIN>LP2323</CIN><name>khalid wesneuf</name><sexe type="male"/><age>19</age><phone type="mobile">062535337</phone><email>sfsffs@gmail.com</email></Persone></Employers>

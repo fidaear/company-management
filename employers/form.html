@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Employee Form</h2>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="alert alert-{{ messages[0][0] }}">
+                    {{ messages[0][1] }}
+                </div>
+            {% endif %}
+        {% endwith %}
+        <form action="/submit_employee" method="post">
+            <div class="form-group">
+                <label for="CIN">CIN</label>
+                <input type="text" class="form-control" id="CIN" name="CIN" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="sexe">Sexe</label>
+                <select class="form-control" id="sexe" name="sexe" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_type">Phone Type</label>
+                <select class="form-control" id="phone_type" name="phone_type" required>
+                    <option value="home">Home</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="work">Work</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a href="/display_employees" class="btn btn-secondary">Display Employees</a>
+            <a href="/" class="btn btn-secondary">Back to Dashboard</a>
+            
+        </form>
+    </div>
+</body>
+</html>

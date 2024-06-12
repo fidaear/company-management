@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT projects (project*)>
+<!ELEMENT project (name,duree,taille,idemp,description?)>
+<!ELEMENT idemp (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT duree (#PCDATA)>
+<!ELEMENT taille (#PCDATA)>
+<!ATTLIST duree type (jour|mois|anne) #REQUIRED>
+<!ENTITY % prjsize "tailldeproject (moyenne | petit | grand) #IMPLIED">
+<!ATTLIST taille %prjsize; >
+<!ATTLIST project identifiant ID #REQUIRED>
